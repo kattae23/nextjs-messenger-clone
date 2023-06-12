@@ -209,6 +209,9 @@ const AuthForm = () => {
             {variant === 'LOGIN' ? 'Create an Account' : 'Login'}
           </div>
         </div>
+        <div className='flex flex-col px-2 text-gray-500 text-center mt-3 gap-2'>
+          Test Account: test@test.com | 12345678
+        </div>
       </div>
     </div>
   )
