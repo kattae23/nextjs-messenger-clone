@@ -153,6 +153,9 @@ const AuthForm = () => {
             >{variant === 'LOGIN' ? 'Sign In' : 'Register'}
             </Button>
           </div>
+          <p className='mt-2 text-gray-600 text-center'>
+            {errors.password && 'Password must contain more than 8 characters'}
+          </p>
         </form>
 
         <div className='mt-6'>
